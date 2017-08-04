@@ -9,6 +9,7 @@
 }
 
 body{
+	padding: 25px !important;
 	background-color: rgba(138, 128, 128, 0.38);
 }
 

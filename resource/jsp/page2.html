@@ -31,7 +31,7 @@ div.right>div>div{
 }
 </style>
 
-<div id='title' class='h2' style='margin-left: 23%;'>貓子~貓子~I Love U</div>
+<div id='title' class='h1'>I Love U</div>
 <!-- Heart1 -->
 <div class='left'>
   <div style='padding-right:68px'><div></div><div></div></div>
@@ -95,12 +95,83 @@ div.right>div>div{
   <div><div></div></div>
 </div>
 
+<br>
+
+<!-- Heart4 -->
+<div id='heart4' class='left'>
+  <div style='padding-right:68px'><div></div><div></div></div>
+  <div style='padding-right:34px'><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+<div class='right'>
+  <div style='padding-left:34px'><div></div><div></div></div>
+  <div style=''><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+
+<!-- Heart5 -->
+<div class='left'>
+  <div style='padding-right:68px'><div></div><div></div></div>
+  <div style='padding-right:34px'><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+<div class='right'>
+  <div style='padding-left:34px'><div></div><div></div></div>
+  <div style=''><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+
+<br>
+
+<!-- Heart6 -->
+<div id='heart6' class='left'>
+  <div style='padding-right:68px'><div></div><div></div></div>
+  <div style='padding-right:34px'><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+<div class='right'>
+  <div style='padding-left:34px'><div></div><div></div></div>
+  <div style=''><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+
 <script type="text/javascript">
 //# sourceURL=2.js
 
 var width = $(window).width();
-$('body').css('margin-left', (width/2)-450);
-$('div#title').css('margin-left', 330);
+var center = (width/2)-450;
+$('body').css('margin-left', center);
+$('div#title').css('margin-left', 400);
+
+$('div#heart4').css('margin-left', 155);
+$('div#heart6').css('margin-left', 310);
 
 $('div>div>div').each(function(id){
    $(this).css({
