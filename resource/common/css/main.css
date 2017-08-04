@@ -1,0 +1,17 @@
+/* Bootstrap */
+@import url(../../../resource/repository/bootstrap/3.2.0/css/bootstrap.css);
+
+/* Custom CSS */
+.href{
+	text-decoration: none;
+	color: #080808;
+	font-size: 12px;
+}
+
+body{
+	background-color: rgba(138, 128, 128, 0.38);
+}
+
+div{
+	font-family: Microsoft JhengHei !important;
+}

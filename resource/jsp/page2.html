@@ -1,0 +1,117 @@
+<style type="text/css">
+/* 愛心
+================================== */
+body{
+	background-color: rgba(170, 255, 251, 0.38);
+}
+
+.left,.right{
+  display:inline-block
+}
+.left{
+  width:170px;
+  height:239px;
+  margin-right:-4px
+}
+
+div>div{
+  display:block;
+  height:34px;
+}
+div>div>div{
+  width:30px;
+  height:30px;
+  background-color:red;
+  display:inline-block;
+  float:right;
+  margin:2px;
+}
+div.right>div>div{
+  float:left;
+}
+</style>
+
+<div id='title' class='h2' style='margin-left: 23%;'>貓子~貓子~I Love U</div>
+<!-- Heart1 -->
+<div class='left'>
+  <div style='padding-right:68px'><div></div><div></div></div>
+  <div style='padding-right:34px'><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+<div class='right'>
+  <div style='padding-left:34px'><div></div><div></div></div>
+  <div style=''><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+
+<!-- Heart2 -->
+<div class='left'>
+  <div style='padding-right:68px'><div></div><div></div></div>
+  <div style='padding-right:34px'><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+<div class='right'>
+  <div style='padding-left:34px'><div></div><div></div></div>
+  <div style=''><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+
+<!-- Heart3 -->
+<div class='left'>
+  <div style='padding-right:68px'><div></div><div></div></div>
+  <div style='padding-right:34px'><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+<div class='right'>
+  <div style='padding-left:34px'><div></div><div></div></div>
+  <div style=''><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div><div></div></div>
+  <div><div></div><div></div><div></div></div>
+  <div><div></div><div></div></div>
+  <div><div></div></div>
+</div>
+
+<script type="text/javascript">
+//# sourceURL=2.js
+
+var width = $(window).width();
+$('body').css('margin-left', (width/2)-450);
+$('div#title').css('margin-left', 330);
+
+$('div>div>div').each(function(id){
+   $(this).css({
+     position: 'relative',
+     top: '-200px',
+     opacity: 0
+   });
+   var wait = Math.floor((Math.random()*3000)+1);
+   $(this).delay(wait).animate({
+     top: '0px',
+     opacity: 1
+   },1000);
+ })
+</script>
