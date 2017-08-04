@@ -1,6 +1,5 @@
 //# sourceURL=1.js
 
-$('button').trigger('click');
 $('div>div>div').each(function(id) {
 	$(this).css({
 		position : 'relative',
